@@ -1,0 +1,16 @@
+.wrapper {
+    background: var(--primary-blue);
+    height: 15vh;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    width: auto;
+    height: 75%;
+}

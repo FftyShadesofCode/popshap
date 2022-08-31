@@ -1,0 +1,80 @@
+.board {
+    text-align: center;
+    background: var(--secondary-blue);
+    width: 25rem;
+    height: 85vh;
+    position: fixed;
+}
+
+.board .leaderboard{
+    margin-bottom: 25px;
+    color: white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+     width: 7.5rem;
+     height: 7.5px;
+     background: var(--secondary-orange);
+     border: none;
+     margin: 10px 175px;
+ }
+
+.board .duration{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 25px;
+}
+
+.board .duration > button{
+    border: 1px solid var(--lt-blue);
+    padding: .5em 2em;
+    border-radius: 50px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.board .duration > button:hover{
+    background-color: var(--primary-orange);
+    color: var(--primary-blue);
+}
+
+.active{
+    background-color: var(--lt-blue);
+    color: var(--primary-orange);
+}
+
+#profile{
+    margin-top: 1.5em;
+}
+
+#profile .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+    padding: 0 50px;
+}
+
+#profile .flex .item{
+    display: flex;
+    align-items: center;
+}
+
+#profile .flex img{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#profile .flex .info{
+    padding: 1em;
+}
+
+.text-dark{
+    color: black;
+}
