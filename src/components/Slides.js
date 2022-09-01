@@ -36,8 +36,8 @@ export default function Slideshow() {
     return (
         <div className='slideshow'>
             <div className='slideshowSlider' style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }} >
-                    {slides.map((slide, index) => (
-                        <div className='slide' key={index} />
+                    {slides.map((background, index) => (
+                        <div className='slide' key={index} style={{ background }} />
                     ))}
             </div>
         </div>
